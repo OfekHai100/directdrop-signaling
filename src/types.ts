@@ -32,7 +32,7 @@ export interface AnswerMessage {
 export interface IceCandidateMessage {
   type: 'ice-candidate';
   to: string;
-  candidate: RTCIceCandidateInit;
+  candidate: any;
 }
 
 export interface ErrorMessage {
